@@ -21,7 +21,7 @@ player.setCurrentTime(parsedTime).catch(function(error){
 switch(error.name) {
     case "RangeError": alert("Czas był mniejszy niż 0 lub większy niż czas trwania wideo.")
     break;
-    default: alert("Wystąpił błąd:" + error.message)
+    default: alert("Wystąpił błąd:" + error.name)
     break
 }
 }) 
