@@ -1,1 +1,0 @@
-declare module "C:/Users/HP/Documents/GitHub/goit-js-hw-08.1/node_modules/simplelightbox/dist/simple-lightbox"
